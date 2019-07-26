@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Vu Van Khac/KVAlertController'
+  s.homepage         = 'https://github.com/vuvankhac/KVAlertController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Vu Van Khac' => 'khacvv0451@gmail.com' }
-  s.source           = { :git => 'https://github.com/Vu Van Khac/KVAlertController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/vuvankhac/KVAlertController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
