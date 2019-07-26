@@ -89,10 +89,12 @@ public class KVAlertController: UIViewController {
             let stackView = UIStackView(arrangedSubviews: [customAlertController.view])
             view.addSubview(stackView)
             
+            let leftConstraint = stackView.leftAnchor.constraint(greaterThanOrEqualTo: view.leftAnchor, constant: 37.0)
+            let rightConstraint = stackView.rightAnchor.constraint(greaterThanOrEqualTo: view.rightAnchor, constant: -37.0)
             let centerXConstraint = stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor)
             let centerYConstraint = stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor)
             stackView.translatesAutoresizingMaskIntoConstraints = false
-            NSLayoutConstraint.activate([centerXConstraint, centerYConstraint])
+            NSLayoutConstraint.activate([leftConstraint, rightConstraint, centerXConstraint, centerYConstraint])
             self.centerYConstraint = centerYConstraint
             
             customStackView = stackView
@@ -104,11 +106,12 @@ public class KVAlertController: UIViewController {
             normalAlertController.configSubmit(font: submitButtonFont, tintColor: submitButtonTintColor, borderColor: submitButtonBorderColor, borderWidth: submitButtonBorderWidth, cornerRadius: submitButtonCornerRadius)
             normalAlertController.config(title: title, message: message, cancelTitleLabel: cancelTitle, submitTitleLabel: submitTitle)
             
+            let leftConstraint = normalStackView.leftAnchor.constraint(greaterThanOrEqualTo: view.leftAnchor, constant: 37.0)
+            let rightConstraint = normalStackView.rightAnchor.constraint(greaterThanOrEqualTo: view.rightAnchor, constant: -37.0)
+            let centerXConstraint = normalStackView.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+            let centerYConstraint = normalStackView.centerYAnchor.constraint(equalTo: view.centerYAnchor)
             normalStackView.translatesAutoresizingMaskIntoConstraints = false
-            NSLayoutConstraint.activate([
-                normalStackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-                normalStackView.centerYAnchor.constraint(equalTo: view.centerYAnchor)
-                ])
+            NSLayoutConstraint.activate([leftConstraint, rightConstraint, centerXConstraint, centerYConstraint])
             
             normalAlertController.cancelClosure = {
                 cancelAction?()
