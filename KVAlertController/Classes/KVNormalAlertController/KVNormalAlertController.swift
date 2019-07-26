@@ -36,8 +36,8 @@ class KVNormalAlertController: UIViewController {
 
     @IBOutlet private weak var kvTitleLabel: UILabel!
     @IBOutlet private weak var kvMessageLabel: UILabel!
-    @IBOutlet private weak var kvCancelButton: KVButton!
-    @IBOutlet private weak var kvSubmitButton: KVButton!
+    @IBOutlet private weak var kvCancelButton: UIButton!
+    @IBOutlet private weak var kvSubmitButton: UIButton!
     
     lazy var cancelClosure: (() -> ())? = nil
     lazy var submitClosure: (() -> ())? = nil
@@ -67,12 +67,22 @@ extension KVNormalAlertController {
         kvMessageLabel.textColor = textColor
     }
     
-    func configCancel(font: UIFont) {
+    func configCancel(font: UIFont, tintColor: UIColor, borderColor: UIColor, borderWidth: CGFloat, cornerRadius: CGFloat) {
+        kvCancelButton.layer.masksToBounds = true
+        kvCancelButton.tintColor = tintColor
         kvCancelButton.titleLabel?.font = font
+        kvCancelButton.layer.borderColor = borderColor.cgColor
+        kvCancelButton.layer.borderWidth = borderWidth
+        kvCancelButton.layer.cornerRadius = cornerRadius
     }
     
-    func configSubmit(font: UIFont) {
+    func configSubmit(font: UIFont, tintColor: UIColor, borderColor: UIColor, borderWidth: CGFloat, cornerRadius: CGFloat) {
+        kvSubmitButton.layer.masksToBounds = true
+        kvSubmitButton.tintColor = tintColor
         kvSubmitButton.titleLabel?.font = font
+        kvSubmitButton.layer.borderColor = borderColor.cgColor
+        kvSubmitButton.layer.borderWidth = borderWidth
+        kvSubmitButton.layer.cornerRadius = cornerRadius
     }
     
     func config(title: String?, message: String?, cancelTitleLabel: String?, submitTitleLabel: String?) {

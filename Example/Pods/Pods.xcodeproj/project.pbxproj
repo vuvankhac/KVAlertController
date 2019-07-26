@@ -7,76 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B094C6AE863BA455388D69FA62E5176 /* KVAlertController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 71668DD488E6FD6B275C65710432376C /* KVAlertController.bundle */; };
-		5254F25D8A1B626906B687336C4E1B7D /* KVAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B84DC75DC30BA66719782830402A7D1 /* KVAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		528417564ED55AB3432923D6D6DB3273 /* KVNormalAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5D254BA9A567F3D2B410010CC7EC69 /* KVNormalAlertController.xib */; };
-		894081986D0B346AD59620CD216597DB /* KVAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1EF635C67407FA003651E1972836B7 /* KVAlertController.swift */; };
+		3D73E989841E8768BED9BE95B927CA7F /* KVAlertController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 71668DD488E6FD6B275C65710432376C /* KVAlertController.bundle */; };
+		59437BC031D35F7EE044EB3046C7C1BF /* KVNormalAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7EC9A7FC6B438DE8F3EE4132FAFA2 /* KVNormalAlertController.swift */; };
+		7E71EAC3F6439AFFD6E26E59F2D6C620 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		905BFDF3D1E3F582D1813FD956B94A47 /* KVNormalAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DA8E097E1904E9D68C5E8E60D4525B1 /* KVNormalAlertController.xib */; };
 		96997C755DCD201C026B7210AF424F2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A6142BA2FF82BE9EAA8FC860BF5EA486 /* KVButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69809C5C28825991821F12D3AC02A1A9 /* KVButton.swift */; };
-		AC23782A88C8A2B3894970643659E8DE /* KVAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FDEA0A203969207D4C6A9E7368162B /* KVAlertController-dummy.m */; };
-		B95869583DC47DD1E8D2B86F87C7E0C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		DA893903EEF678A124AB486F4D2E10BF /* KVNormalAlertController.xib in Sources */ = {isa = PBXBuildFile; fileRef = DE5D254BA9A567F3D2B410010CC7EC69 /* KVNormalAlertController.xib */; };
-		E74267A276A59F9A25FEC4971603E084 /* KVNormalAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B2BEA993D5549D9A2CF615A02AEA5 /* KVNormalAlertController.swift */; };
-		F0E8D769DF7378F693FED1DAB797D583 /* KVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD26371937F03FE9717CA1B9EFEC13 /* KVView.swift */; };
+		981E0E3A56DD03403526361E6E5FEAAB /* KVAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E031AE17488218EBDA403AFE0DCAB48 /* KVAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF294CFB3029CDA6BE1E66BAD57665A9 /* KVAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC7419EEE6E7DD27E951AB5C70D39C /* KVAlertController.swift */; };
 		F1AD3B9BA00ECDDCF310B3E8A2F21A7F /* Pods-KVAlertController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF64A28B2A6E03134BAAC69C20FC6D93 /* Pods-KVAlertController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAABF0AB2D485193CEDE754BE4E970A0 /* KVNormalAlertController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 5DA8E097E1904E9D68C5E8E60D4525B1 /* KVNormalAlertController.xib */; };
+		FC9803C245F81A896903985BFCFB88A6 /* KVAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E688B53AA6DC47A56517197C83DFDA64 /* KVAlertController-dummy.m */; };
 		FD22EEF420C52C3026CFC9F2BA8597AB /* Pods-KVAlertController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB04E427819B7A8C5DC26880C74D906 /* Pods-KVAlertController_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ADF07EA5F915FE9407887131B7E9B3B5 /* PBXContainerItemProxy */ = {
+		7BA53C97AB9289BCE2732A9C9645CC0E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A7FBB17D7DE65D1D28B6446B6D89B0C8;
+			remoteGlobalIDString = F92615E65DECD7132D82E0A7B9340AF6;
 			remoteInfo = "KVAlertController-KVAlertController";
 		};
 		F5DE1D7C845AF7E794E1EA34E79BF9C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C12C52C365991FCD508E941A85314686;
+			remoteGlobalIDString = D6E0F71D471258241C59389B14A6F769;
 			remoteInfo = KVAlertController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0DB04E427819B7A8C5DC26880C74D906 /* Pods-KVAlertController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVAlertController_Example-dummy.m"; sourceTree = "<group>"; };
-		28DF962D76926AFF464AE407DF25863D /* KVAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KVAlertController-Info.plist"; sourceTree = "<group>"; };
-		3DFD26371937F03FE9717CA1B9EFEC13 /* KVView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KVView.swift; sourceTree = "<group>"; };
 		418EB127D54F05CC8BD6D0E90675CC14 /* Pods-KVAlertController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVAlertController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		41EEAF7437862578A8E7CB5634AC0E68 /* Pods-KVAlertController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KVAlertController_Example.modulemap"; sourceTree = "<group>"; };
 		420532FCE5469BF7081EC39AC002A288 /* KVAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		499B2BEA993D5549D9A2CF615A02AEA5 /* KVNormalAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KVNormalAlertController.swift; sourceTree = "<group>"; };
-		4B84DC75DC30BA66719782830402A7D1 /* KVAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVAlertController-umbrella.h"; sourceTree = "<group>"; };
 		4E67D8DC568654BF3D813E25CA738E4D /* Pods-KVAlertController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVAlertController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		57A57E3CC2C9F7239ABE59B8141BDC8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		69809C5C28825991821F12D3AC02A1A9 /* KVButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KVButton.swift; sourceTree = "<group>"; };
+		5DA8E097E1904E9D68C5E8E60D4525B1 /* KVNormalAlertController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = KVNormalAlertController.xib; sourceTree = "<group>"; };
+		6DBACC746E196B1F3D3F1067C6EC14D9 /* KVAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KVAlertController.modulemap; sourceTree = "<group>"; };
 		71668DD488E6FD6B275C65710432376C /* KVAlertController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVAlertController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		71C0D4C3570B3C220CC6F972367CD338 /* KVAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVAlertController.xcconfig; sourceTree = "<group>"; };
-		86A98A5D7C656CFAE2B8AF2C24774382 /* KVAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KVAlertController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		809A98E52E8F7F4C0941EBECCDC8856B /* KVAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KVAlertController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8410179F4CD0DACBB43D4F14A2249662 /* KVAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVAlertController.xcconfig; sourceTree = "<group>"; };
 		8C474CB8D3022D6AF8008A5042CE5B88 /* Pods-KVAlertController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVAlertController_Example-Info.plist"; sourceTree = "<group>"; };
+		8E031AE17488218EBDA403AFE0DCAB48 /* KVAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVAlertController-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8D659F30EBE133E73BEF9E2599CA334 /* KVAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVAlertController-prefix.pch"; sourceTree = "<group>"; };
 		A9C1B56781224218F80F5ACEA0E4518D /* Pods_KVAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABA1725F07AD9DFA4FB43783FC216DCC /* KVAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KVAlertController.modulemap; sourceTree = "<group>"; };
-		ADA89CEDC907E3998AB2853BFF3AF34E /* ResourceBundle-KVAlertController-KVAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KVAlertController-KVAlertController-Info.plist"; sourceTree = "<group>"; };
+		ADAC7419EEE6E7DD27E951AB5C70D39C /* KVAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVAlertController.swift; path = KVAlertController/Classes/KVAlertController.swift; sourceTree = "<group>"; };
 		AF64A28B2A6E03134BAAC69C20FC6D93 /* Pods-KVAlertController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVAlertController_Example-umbrella.h"; sourceTree = "<group>"; };
+		B34EDD96891CC001E6B4F920A64A46E4 /* KVAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVAlertController-prefix.pch"; sourceTree = "<group>"; };
 		B77D3A51EE627569D7AB934A1A0BDAD7 /* Pods-KVAlertController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVAlertController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B8FDEA0A203969207D4C6A9E7368162B /* KVAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVAlertController-dummy.m"; sourceTree = "<group>"; };
-		BD7519697151C4C71E5D642256D60BDD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC1EF635C67407FA003651E1972836B7 /* KVAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVAlertController.swift; path = KVAlertController/Classes/KVAlertController.swift; sourceTree = "<group>"; };
+		CCB7EC9A7FC6B438DE8F3EE4132FAFA2 /* KVNormalAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KVNormalAlertController.swift; sourceTree = "<group>"; };
+		D048E8D12AE35EF58AB84D2CCC4AD54E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D31D271FA9BC9097BA555F2D7135F079 /* ResourceBundle-KVAlertController-KVAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KVAlertController-KVAlertController-Info.plist"; sourceTree = "<group>"; };
 		DB5A5A7E920233BA119B4249B50378D6 /* Pods-KVAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DE5D254BA9A567F3D2B410010CC7EC69 /* KVNormalAlertController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = KVNormalAlertController.xib; sourceTree = "<group>"; };
+		E688B53AA6DC47A56517197C83DFDA64 /* KVAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVAlertController-dummy.m"; sourceTree = "<group>"; };
+		EE23CD5121EF96477920BD3A01D79C0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F183EE2C6020D770A9564EA06F3067A5 /* Pods-KVAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F6E7E64E9BB1F45D83E72CECE5AE3C80 /* KVAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KVAlertController-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3976A5F2DA813BF1ED3493CFF75D10C3 /* Frameworks */ = {
+		5718F9801CB6BF3516F18BCD83ADB41B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B95869583DC47DD1E8D2B86F87C7E0C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C35E404DF273234E5551A667EA47C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E71EAC3F6439AFFD6E26E59F2D6C620 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,13 +88,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				96997C755DCD201C026B7210AF424F2A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB90FD8143B2A80DFE5C9F8253B42F42 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,58 +102,52 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		199D6D2D3A8116BA59C0FEE758024933 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4CC2F6357A551189FBD604FDF1BA16DA /* KVAlertController */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		40F149970D3283F7333C543BD3B2745B /* Resources */ = {
+		28DC810DAF8D03B77ECD2ABE58053FCB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		4CC2F6357A551189FBD604FDF1BA16DA /* KVAlertController */ = {
+		2D37F758E02DA04184144EE8271C9252 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CC1EF635C67407FA003651E1972836B7 /* KVAlertController.swift */,
-				62FFDE603DE6AB00DA8A221F07941FF4 /* KVNormalAlertController */,
-				882F0BF19E16FE4E21801D4D17FADB74 /* KVViews */,
-				FDB1482A1E77D26B4128B985D2E37892 /* Pod */,
-				40F149970D3283F7333C543BD3B2745B /* Resources */,
-				846996F29A2B20B583D6622E478DD448 /* Support Files */,
+				4DFED5644826EC5CEE7D77355E388302 /* KVAlertController */,
 			);
-			name = KVAlertController;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		62FFDE603DE6AB00DA8A221F07941FF4 /* KVNormalAlertController */ = {
+		3B4D35E58CF4D886F021C70B5B9141D1 /* KVNormalAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				499B2BEA993D5549D9A2CF615A02AEA5 /* KVNormalAlertController.swift */,
-				DE5D254BA9A567F3D2B410010CC7EC69 /* KVNormalAlertController.xib */,
+				CCB7EC9A7FC6B438DE8F3EE4132FAFA2 /* KVNormalAlertController.swift */,
+				5DA8E097E1904E9D68C5E8E60D4525B1 /* KVNormalAlertController.xib */,
 			);
 			name = KVNormalAlertController;
 			path = KVAlertController/Classes/KVNormalAlertController;
 			sourceTree = "<group>";
 		};
-		846996F29A2B20B583D6622E478DD448 /* Support Files */ = {
+		4DFED5644826EC5CEE7D77355E388302 /* KVAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				ABA1725F07AD9DFA4FB43783FC216DCC /* KVAlertController.modulemap */,
-				71C0D4C3570B3C220CC6F972367CD338 /* KVAlertController.xcconfig */,
-				B8FDEA0A203969207D4C6A9E7368162B /* KVAlertController-dummy.m */,
-				28DF962D76926AFF464AE407DF25863D /* KVAlertController-Info.plist */,
-				A8D659F30EBE133E73BEF9E2599CA334 /* KVAlertController-prefix.pch */,
-				4B84DC75DC30BA66719782830402A7D1 /* KVAlertController-umbrella.h */,
-				ADA89CEDC907E3998AB2853BFF3AF34E /* ResourceBundle-KVAlertController-KVAlertController-Info.plist */,
+				ADAC7419EEE6E7DD27E951AB5C70D39C /* KVAlertController.swift */,
+				3B4D35E58CF4D886F021C70B5B9141D1 /* KVNormalAlertController */,
+				5FE43E576F7E592AA64EC77DD4567E55 /* Pod */,
+				28DC810DAF8D03B77ECD2ABE58053FCB /* Resources */,
+				E852E8D9EEA5A482ECFA89678797CE1F /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KVAlertController";
+			name = KVAlertController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5FE43E576F7E592AA64EC77DD4567E55 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				809A98E52E8F7F4C0941EBECCDC8856B /* KVAlertController.podspec */,
+				EE23CD5121EF96477920BD3A01D79C0B /* LICENSE */,
+				D048E8D12AE35EF58AB84D2CCC4AD54E /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		85CD5A5DE8A03B007488CE575C55D16D /* Pods-KVAlertController_Example */ = {
@@ -175,16 +165,6 @@
 			);
 			name = "Pods-KVAlertController_Example";
 			path = "Target Support Files/Pods-KVAlertController_Example";
-			sourceTree = "<group>";
-		};
-		882F0BF19E16FE4E21801D4D17FADB74 /* KVViews */ = {
-			isa = PBXGroup;
-			children = (
-				69809C5C28825991821F12D3AC02A1A9 /* KVButton.swift */,
-				3DFD26371937F03FE9717CA1B9EFEC13 /* KVView.swift */,
-			);
-			name = KVViews;
-			path = KVAlertController/Classes/KVViews;
 			sourceTree = "<group>";
 		};
 		8EAD4A9C8A2F0D30C6D1258A568E7F20 /* Products */ = {
@@ -209,7 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				199D6D2D3A8116BA59C0FEE758024933 /* Development Pods */,
+				2D37F758E02DA04184144EE8271C9252 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				8EAD4A9C8A2F0D30C6D1258A568E7F20 /* Products */,
 				120FC3ABCDDE3382763471749D32125F /* Targets Support Files */,
@@ -224,14 +204,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FDB1482A1E77D26B4128B985D2E37892 /* Pod */ = {
+		E852E8D9EEA5A482ECFA89678797CE1F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				86A98A5D7C656CFAE2B8AF2C24774382 /* KVAlertController.podspec */,
-				57A57E3CC2C9F7239ABE59B8141BDC8F /* LICENSE */,
-				BD7519697151C4C71E5D642256D60BDD /* README.md */,
+				6DBACC746E196B1F3D3F1067C6EC14D9 /* KVAlertController.modulemap */,
+				8410179F4CD0DACBB43D4F14A2249662 /* KVAlertController.xcconfig */,
+				E688B53AA6DC47A56517197C83DFDA64 /* KVAlertController-dummy.m */,
+				F6E7E64E9BB1F45D83E72CECE5AE3C80 /* KVAlertController-Info.plist */,
+				B34EDD96891CC001E6B4F920A64A46E4 /* KVAlertController-prefix.pch */,
+				8E031AE17488218EBDA403AFE0DCAB48 /* KVAlertController-umbrella.h */,
+				D31D271FA9BC9097BA555F2D7135F079 /* ResourceBundle-KVAlertController-KVAlertController-Info.plist */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KVAlertController";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,11 +230,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6A48F094BC3755EA8A63AED5CE0D072 /* Headers */ = {
+		B410626D083183440F4DE92B3A935CDD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5254F25D8A1B626906B687336C4E1B7D /* KVAlertController-umbrella.h in Headers */,
+				981E0E3A56DD03403526361E6E5FEAAB /* KVAlertController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,13 +260,32 @@
 			productReference = A9C1B56781224218F80F5ACEA0E4518D /* Pods_KVAlertController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A7FBB17D7DE65D1D28B6446B6D89B0C8 /* KVAlertController-KVAlertController */ = {
+		D6E0F71D471258241C59389B14A6F769 /* KVAlertController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35D520E08174CCAFDEC06E01E8146B35 /* Build configuration list for PBXNativeTarget "KVAlertController-KVAlertController" */;
+			buildConfigurationList = 69D48C3E900EEC8072D5BA4C7C94FFC2 /* Build configuration list for PBXNativeTarget "KVAlertController" */;
 			buildPhases = (
-				68C759D4531B8EA41E101B13FC8C41BB /* Sources */,
-				EB90FD8143B2A80DFE5C9F8253B42F42 /* Frameworks */,
-				5B59BAD46E15E2A885D75A3F362472D0 /* Resources */,
+				B410626D083183440F4DE92B3A935CDD /* Headers */,
+				C06FA0158D993B6E01E10FEFE5C270DB /* Sources */,
+				89C35E404DF273234E5551A667EA47C1 /* Frameworks */,
+				03A3577A466F903E1F908EAE31F5F9D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92D05A534154FE2DFDB8379768FE15A3 /* PBXTargetDependency */,
+			);
+			name = KVAlertController;
+			productName = KVAlertController;
+			productReference = 420532FCE5469BF7081EC39AC002A288 /* KVAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F92615E65DECD7132D82E0A7B9340AF6 /* KVAlertController-KVAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F457E0F6C441D59B8B8D02D69D68343 /* Build configuration list for PBXNativeTarget "KVAlertController-KVAlertController" */;
+			buildPhases = (
+				615A5EE0D36642629F3FE31D147E2AED /* Sources */,
+				5718F9801CB6BF3516F18BCD83ADB41B /* Frameworks */,
+				0CD4C4CB29C49E82E65171863048BBAA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -291,25 +295,6 @@
 			productName = "KVAlertController-KVAlertController";
 			productReference = 71668DD488E6FD6B275C65710432376C /* KVAlertController.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		C12C52C365991FCD508E941A85314686 /* KVAlertController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0F435A0FC5D40A8496376824735E958F /* Build configuration list for PBXNativeTarget "KVAlertController" */;
-			buildPhases = (
-				F6A48F094BC3755EA8A63AED5CE0D072 /* Headers */,
-				2727B240E0CD53B1F59CD797C3AF28B2 /* Sources */,
-				3976A5F2DA813BF1ED3493CFF75D10C3 /* Frameworks */,
-				31295EAF6A2A0E40B24B7B4B93761355 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				44EE6114E7DA89CE424444D58E4AAE2A /* PBXTargetDependency */,
-			);
-			name = KVAlertController;
-			productName = KVAlertController;
-			productReference = 420532FCE5469BF7081EC39AC002A288 /* KVAlertController.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -333,19 +318,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C12C52C365991FCD508E941A85314686 /* KVAlertController */,
-				A7FBB17D7DE65D1D28B6446B6D89B0C8 /* KVAlertController-KVAlertController */,
+				D6E0F71D471258241C59389B14A6F769 /* KVAlertController */,
+				F92615E65DECD7132D82E0A7B9340AF6 /* KVAlertController-KVAlertController */,
 				8DC54FF02CF0F97050D6537B97FC7FF3 /* Pods-KVAlertController_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		31295EAF6A2A0E40B24B7B4B93761355 /* Resources */ = {
+		03A3577A466F903E1F908EAE31F5F9D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B094C6AE863BA455388D69FA62E5176 /* KVAlertController.bundle in Resources */,
+				3D73E989841E8768BED9BE95B927CA7F /* KVAlertController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD4C4CB29C49E82E65171863048BBAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905BFDF3D1E3F582D1813FD956B94A47 /* KVNormalAlertController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,34 +349,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B59BAD46E15E2A885D75A3F362472D0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				528417564ED55AB3432923D6D6DB3273 /* KVNormalAlertController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2727B240E0CD53B1F59CD797C3AF28B2 /* Sources */ = {
+		615A5EE0D36642629F3FE31D147E2AED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC23782A88C8A2B3894970643659E8DE /* KVAlertController-dummy.m in Sources */,
-				894081986D0B346AD59620CD216597DB /* KVAlertController.swift in Sources */,
-				A6142BA2FF82BE9EAA8FC860BF5EA486 /* KVButton.swift in Sources */,
-				E74267A276A59F9A25FEC4971603E084 /* KVNormalAlertController.swift in Sources */,
-				DA893903EEF678A124AB486F4D2E10BF /* KVNormalAlertController.xib in Sources */,
-				F0E8D769DF7378F693FED1DAB797D583 /* KVView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68C759D4531B8EA41E101B13FC8C41BB /* Sources */ = {
+		C06FA0158D993B6E01E10FEFE5C270DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9803C245F81A896903985BFCFB88A6 /* KVAlertController-dummy.m in Sources */,
+				CF294CFB3029CDA6BE1E66BAD57665A9 /* KVAlertController.swift in Sources */,
+				59437BC031D35F7EE044EB3046C7C1BF /* KVNormalAlertController.swift in Sources */,
+				FAABF0AB2D485193CEDE754BE4E970A0 /* KVNormalAlertController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,16 +381,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		44EE6114E7DA89CE424444D58E4AAE2A /* PBXTargetDependency */ = {
+		92D05A534154FE2DFDB8379768FE15A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "KVAlertController-KVAlertController";
-			target = A7FBB17D7DE65D1D28B6446B6D89B0C8 /* KVAlertController-KVAlertController */;
-			targetProxy = ADF07EA5F915FE9407887131B7E9B3B5 /* PBXContainerItemProxy */;
+			target = F92615E65DECD7132D82E0A7B9340AF6 /* KVAlertController-KVAlertController */;
+			targetProxy = 7BA53C97AB9289BCE2732A9C9645CC0E /* PBXContainerItemProxy */;
 		};
 		E26C963D99D95A184EAE8286A1F86319 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KVAlertController;
-			target = C12C52C365991FCD508E941A85314686 /* KVAlertController */;
+			target = D6E0F71D471258241C59389B14A6F769 /* KVAlertController */;
 			targetProxy = F5DE1D7C845AF7E794E1EA34E79BF9C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -473,35 +456,19 @@
 			};
 			name = Release;
 		};
-		4FE6B551387F0B2A818502B51B9F232A /* Debug */ = {
+		59CD81F7D1B49B03AD49979BF9C8E61A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71C0D4C3570B3C220CC6F972367CD338 /* KVAlertController.xcconfig */;
+			baseConfigurationReference = 8410179F4CD0DACBB43D4F14A2249662 /* KVAlertController.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KVAlertController/KVAlertController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KVAlertController/KVAlertController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KVAlertController";
+				INFOPLIST_FILE = "Target Support Files/KVAlertController/ResourceBundle-KVAlertController-KVAlertController-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KVAlertController/KVAlertController.modulemap";
-				PRODUCT_MODULE_NAME = KVAlertController;
 				PRODUCT_NAME = KVAlertController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -570,9 +537,9 @@
 			};
 			name = Debug;
 		};
-		98597AE6387ABA0B95D4CF9E40D99023 /* Release */ = {
+		7961395C5D5F3275E3EB8DD9111060C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71C0D4C3570B3C220CC6F972367CD338 /* KVAlertController.xcconfig */;
+			baseConfigurationReference = 8410179F4CD0DACBB43D4F14A2249662 /* KVAlertController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KVAlertController";
@@ -583,6 +550,39 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		801DB452E658940D192106F151FD4D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8410179F4CD0DACBB43D4F14A2249662 /* KVAlertController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KVAlertController/KVAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVAlertController/KVAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVAlertController/KVAlertController.modulemap";
+				PRODUCT_MODULE_NAME = KVAlertController;
+				PRODUCT_NAME = KVAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -621,25 +621,9 @@
 			};
 			name = Release;
 		};
-		DD98FFA66D984641F555C194F79A4681 /* Debug */ = {
+		E13CA416853CCAF7BDF66D8A73EDB9DB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71C0D4C3570B3C220CC6F972367CD338 /* KVAlertController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KVAlertController";
-				INFOPLIST_FILE = "Target Support Files/KVAlertController/ResourceBundle-KVAlertController-KVAlertController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = KVAlertController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		E6B5AEA73F2A20A102826E06D7456790 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71C0D4C3570B3C220CC6F972367CD338 /* KVAlertController.xcconfig */;
+			baseConfigurationReference = 8410179F4CD0DACBB43D4F14A2249662 /* KVAlertController.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -664,11 +648,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		EEFD9CB377DC289305D2D13495B24281 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -707,29 +690,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F435A0FC5D40A8496376824735E958F /* Build configuration list for PBXNativeTarget "KVAlertController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4FE6B551387F0B2A818502B51B9F232A /* Debug */,
-				E6B5AEA73F2A20A102826E06D7456790 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		35D520E08174CCAFDEC06E01E8146B35 /* Build configuration list for PBXNativeTarget "KVAlertController-KVAlertController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD98FFA66D984641F555C194F79A4681 /* Debug */,
-				98597AE6387ABA0B95D4CF9E40D99023 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
 				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D48C3E900EEC8072D5BA4C7C94FFC2 /* Build configuration list for PBXNativeTarget "KVAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13CA416853CCAF7BDF66D8A73EDB9DB /* Debug */,
+				801DB452E658940D192106F151FD4D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F457E0F6C441D59B8B8D02D69D68343 /* Build configuration list for PBXNativeTarget "KVAlertController-KVAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CD81F7D1B49B03AD49979BF9C8E61A /* Debug */,
+				7961395C5D5F3275E3EB8DD9111060C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

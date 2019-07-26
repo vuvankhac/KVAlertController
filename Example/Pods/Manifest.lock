@@ -1,5 +1,5 @@
 PODS:
-  - KVAlertController (1.0.0)
+  - KVAlertController (1.0.1)
 
 DEPENDENCIES:
   - KVAlertController (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KVAlertController: f800c29b1cdf86a49dad7bc76a0e067f08d39449
+  KVAlertController: ce17fd67e653eded405edbba6fe95d1cb0e475ef
 
-PODFILE CHECKSUM: 4405cc5f81b810a04675053914e18b9fcbee5eed
+PODFILE CHECKSUM: d924482695dcb4c384edbba8bfc6b43bd69eb0e7
 
 COCOAPODS: 1.6.1

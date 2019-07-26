@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -17,58 +16,64 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <rect key="frame" x="0.0" y="0.0" width="277" height="131"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7i-jy-Lj0" customClass="KVView" customModule="KVAlertController">
-                    <rect key="frame" x="68.5" y="382.5" width="277" height="131"/>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mMC-6T-RNM">
+                    <rect key="frame" x="0.0" y="0.0" width="277" height="131"/>
                     <subviews>
-                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZgW-fg-XFp">
-                            <rect key="frame" x="16" y="27" width="245" height="30"/>
-                            <nil key="textColor"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits"/>
-                        </textField>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eal-02-YxF">
-                            <rect key="frame" x="16" y="67" width="245" height="37"/>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7i-jy-Lj0">
+                            <rect key="frame" x="0.0" y="0.0" width="277" height="131"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZgW-fg-XFp">
+                                    <rect key="frame" x="16" y="27" width="245" height="30"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eal-02-YxF">
+                                    <rect key="frame" x="16" y="67" width="245" height="37"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="37" id="DFC-Tm-HyB"/>
+                                    </constraints>
+                                    <state key="normal" title="Dismiss"/>
+                                    <connections>
+                                        <action selector="clickToDismiss:" destination="-1" eventType="touchUpInside" id="7Nd-8C-h5L"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="37" id="DFC-Tm-HyB"/>
+                                <constraint firstItem="eal-02-YxF" firstAttribute="top" secondItem="ZgW-fg-XFp" secondAttribute="bottom" constant="10" id="GJU-Va-9Ba"/>
+                                <constraint firstItem="ZgW-fg-XFp" firstAttribute="top" secondItem="t7i-jy-Lj0" secondAttribute="top" constant="27" id="OTL-en-J5K"/>
+                                <constraint firstAttribute="trailing" secondItem="ZgW-fg-XFp" secondAttribute="trailing" constant="16" id="VuU-RW-o7w"/>
+                                <constraint firstAttribute="width" constant="277" id="al0-8V-Wyq"/>
+                                <constraint firstAttribute="bottom" secondItem="eal-02-YxF" secondAttribute="bottom" constant="27" id="hZI-19-egq"/>
+                                <constraint firstItem="ZgW-fg-XFp" firstAttribute="leading" secondItem="t7i-jy-Lj0" secondAttribute="leading" constant="16" id="jBi-fL-NYl"/>
+                                <constraint firstItem="eal-02-YxF" firstAttribute="trailing" secondItem="ZgW-fg-XFp" secondAttribute="trailing" id="oOe-9o-HbB"/>
+                                <constraint firstItem="eal-02-YxF" firstAttribute="leading" secondItem="ZgW-fg-XFp" secondAttribute="leading" id="oz6-pi-9Oo"/>
                             </constraints>
-                            <state key="normal" title="Dismiss"/>
-                            <connections>
-                                <action selector="clickToDismiss:" destination="-1" eventType="touchUpInside" id="7Nd-8C-h5L"/>
-                            </connections>
-                        </button>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstItem="eal-02-YxF" firstAttribute="top" secondItem="ZgW-fg-XFp" secondAttribute="bottom" constant="10" id="GJU-Va-9Ba"/>
-                        <constraint firstItem="ZgW-fg-XFp" firstAttribute="top" secondItem="t7i-jy-Lj0" secondAttribute="top" constant="27" id="OTL-en-J5K"/>
-                        <constraint firstAttribute="trailing" secondItem="ZgW-fg-XFp" secondAttribute="trailing" constant="16" id="VuU-RW-o7w"/>
-                        <constraint firstAttribute="width" constant="277" id="al0-8V-Wyq"/>
-                        <constraint firstAttribute="bottom" secondItem="eal-02-YxF" secondAttribute="bottom" constant="27" id="hZI-19-egq"/>
-                        <constraint firstItem="ZgW-fg-XFp" firstAttribute="leading" secondItem="t7i-jy-Lj0" secondAttribute="leading" constant="16" id="jBi-fL-NYl"/>
-                        <constraint firstItem="eal-02-YxF" firstAttribute="trailing" secondItem="ZgW-fg-XFp" secondAttribute="trailing" id="oOe-9o-HbB"/>
-                        <constraint firstItem="eal-02-YxF" firstAttribute="leading" secondItem="ZgW-fg-XFp" secondAttribute="leading" id="oz6-pi-9Oo"/>
-                    </constraints>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                            <real key="value" value="8"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="isMasksToBounds" value="YES"/>
-                    </userDefinedRuntimeAttributes>
-                </view>
+                </stackView>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="t7i-jy-Lj0" secondAttribute="trailing" constant="37" id="1sY-Ge-Qwu"/>
-                <constraint firstItem="t7i-jy-Lj0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="37" id="Ehe-at-Gjv"/>
-                <constraint firstItem="t7i-jy-Lj0" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="37" id="Tzv-jy-q0x"/>
-                <constraint firstItem="t7i-jy-Lj0" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cFf-J5-bpa"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="t7i-jy-Lj0" secondAttribute="bottom" constant="37" id="slp-OV-mD4"/>
-                <constraint firstItem="t7i-jy-Lj0" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="ydC-U9-Fiq"/>
+                <constraint firstItem="mMC-6T-RNM" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Duc-Av-tSj"/>
+                <constraint firstItem="mMC-6T-RNM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="FBB-LX-1dj"/>
+                <constraint firstItem="mMC-6T-RNM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SmD-q1-Ppr"/>
+                <constraint firstItem="mMC-6T-RNM" firstAttribute="top" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="top" id="YEY-HC-Xdo"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="mMC-6T-RNM" secondAttribute="bottom" id="blo-Y4-xjZ"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mMC-6T-RNM" secondAttribute="trailing" id="iYY-Zc-OCZ"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.8840579710145" y="-151.00446428571428"/>
         </view>
     </objects>
 </document>

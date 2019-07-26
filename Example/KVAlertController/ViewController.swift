@@ -18,19 +18,21 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clickToShowAlert(_ sender: Any) {
-        KVAlertController.shared.showIn(self, title: "KVAlertController", message: "My fullname is Vu Van Khac", cancelTitle: "CANCEL", cancelAction: {
+        KVAlertController.shared.show(title: "KVAlertController", message: "My fullname is Vu Van Khac", cancelTitle: "CANCEL", cancelAction: {
             print("Cancel")
         }, submitTitle: "OK", submitAction: {
             print("OK")
         })
+    }
+    
+    @IBAction func clickToShowCustomAlert(_ sender: Any) {
+        let customViewController: CustomViewController = CustomViewController.loadFromXib()
+        customViewController.dismissClosure = {
+            KVAlertController.shared.dismiss()
+        }
         
-//        let customViewController: CustomViewController = CustomViewController.loadFromXib()
-//        customViewController.dismissClosure = {
-//            KVAlertController.shared.dismiss()
-//        }
-//
-//        KVAlertController.shared.setAlertController(customViewController)
-//        KVAlertController.shared.showIn(self)
+        KVAlertController.shared.setAlertController(customViewController)
+        KVAlertController.shared.show()
     }
 }
 
