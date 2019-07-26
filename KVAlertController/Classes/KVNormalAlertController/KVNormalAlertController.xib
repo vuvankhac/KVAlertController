@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KVNormalAlertController" customModule="KVAlertController" customModuleProvider="target">
+            <connections>
+                <outlet property="kvCancelButton" destination="KlL-PQ-M3m" id="0iQ-cm-aDi"/>
+                <outlet property="kvMessageLabel" destination="qeW-nc-N8Y" id="OPf-vJ-FQg"/>
+                <outlet property="kvSubmitButton" destination="6IL-GL-cTb" id="fxb-RI-R9s"/>
+                <outlet property="kvTitleLabel" destination="NJ6-ws-YYC" id="y2E-l9-WAj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t18-EQ-hBO" customClass="KVView" customModule="KVAlertController" customModuleProvider="target">
+                    <rect key="frame" x="68.5" y="369.5" width="277" height="157"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="nx8-4D-KvW">
+                            <rect key="frame" x="16" y="27" width="245" height="47"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KVAlertController" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJ6-ws-YYC">
+                                    <rect key="frame" x="0.0" y="0.0" width="245" height="19.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <color key="textColor" red="0.5490196078431373" green="0.56862745098039214" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a message" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qeW-nc-N8Y">
+                                    <rect key="frame" x="0.0" y="27.5" width="245" height="19.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <color key="textColor" red="0.31372549020000001" green="0.33333333329999998" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Bqe-fp-ols">
+                            <rect key="frame" x="16" y="90" width="245" height="40"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KlL-PQ-M3m" customClass="KVButton" customModule="KVAlertController" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="117.5" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="smt-Gg-48q"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                    <state key="normal" title="CANCEL">
+                                        <color key="titleColor" red="0.12549019607843137" green="0.56470588235294117" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isMasksToBounds" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" red="0.12549019607843137" green="0.56470588235294117" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1.5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="clickToCancel:" destination="-1" eventType="touchUpInside" id="bj8-Wy-bQR"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6IL-GL-cTb" customClass="KVButton" customModule="KVAlertController" customModuleProvider="target">
+                                    <rect key="frame" x="127.5" y="0.0" width="117.5" height="40"/>
+                                    <color key="backgroundColor" red="0.12549019607843137" green="0.56470588235294117" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                    <state key="normal" title="SUBMIT">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isMasksToBounds" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="clickToSubmit:" destination="-1" eventType="touchUpInside" id="IfS-JP-QIL"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="6IL-GL-cTb" firstAttribute="height" secondItem="KlL-PQ-M3m" secondAttribute="height" id="55R-Xm-0pW"/>
+                                <constraint firstItem="6IL-GL-cTb" firstAttribute="width" secondItem="KlL-PQ-M3m" secondAttribute="width" id="oDi-ET-024"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Bqe-fp-ols" secondAttribute="bottom" constant="27" id="2as-p4-crZ"/>
+                        <constraint firstItem="Bqe-fp-ols" firstAttribute="top" secondItem="nx8-4D-KvW" secondAttribute="bottom" constant="16" id="6AV-I5-Cnz"/>
+                        <constraint firstItem="Bqe-fp-ols" firstAttribute="leading" secondItem="t18-EQ-hBO" secondAttribute="leading" constant="16" id="H8m-1y-x3G"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="277" id="LoL-Kd-G1w"/>
+                        <constraint firstItem="nx8-4D-KvW" firstAttribute="leading" secondItem="t18-EQ-hBO" secondAttribute="leading" constant="16" id="Mo1-Op-vvL"/>
+                        <constraint firstAttribute="trailing" secondItem="Bqe-fp-ols" secondAttribute="trailing" constant="16" id="Q46-Fc-hAz"/>
+                        <constraint firstItem="nx8-4D-KvW" firstAttribute="top" secondItem="t18-EQ-hBO" secondAttribute="top" constant="27" id="W2M-wv-2DM"/>
+                        <constraint firstAttribute="trailing" secondItem="nx8-4D-KvW" secondAttribute="trailing" constant="16" id="ci1-2Z-dUJ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isMasksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="t18-EQ-hBO" secondAttribute="bottom" constant="16" id="3cz-Uw-xDL"/>
+                <constraint firstItem="t18-EQ-hBO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="MUo-rJ-fe7"/>
+                <constraint firstItem="t18-EQ-hBO" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="NNV-NS-2fg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="t18-EQ-hBO" secondAttribute="trailing" constant="37" id="gD8-Zi-3Pf"/>
+                <constraint firstItem="t18-EQ-hBO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="37" id="pij-tH-la8"/>
+                <constraint firstItem="t18-EQ-hBO" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="pvY-Ah-SXD"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-30.434782608695656" y="112.5"/>
+        </view>
+    </objects>
+</document>

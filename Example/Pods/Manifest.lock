@@ -1,0 +1,16 @@
+PODS:
+  - KVAlertController (1.0.0)
+
+DEPENDENCIES:
+  - KVAlertController (from `../`)
+
+EXTERNAL SOURCES:
+  KVAlertController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KVAlertController: f800c29b1cdf86a49dad7bc76a0e067f08d39449
+
+PODFILE CHECKSUM: 4405cc5f81b810a04675053914e18b9fcbee5eed
+
+COCOAPODS: 1.6.1

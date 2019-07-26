@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'KVAlertController_Example' do
+  pod 'KVAlertController', :path => '../'
+end
